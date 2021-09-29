@@ -19,7 +19,7 @@ variable "IONOSCLOUD_API_URL" {
   #default = "https://nst-fe.nst.profitbricks.net/cloudapi/v5"
   #default = "https://api-10.vte.stg.profitbricks.net/cloudapi/v5"
   #default = "https://api-mstoeckel.vte.stg.profitbricks.net/cloudapi/v5"
-  default = "https://api.ionos.com/cloudapi/v5"
+  #default = "https://api.ionos.com/cloudapi/v5"
   #default = "https://api-stage42.k8s.stg.profitbricks.net/cloudapi/v5"
   description = "IonosCloud API URL"
   type = string

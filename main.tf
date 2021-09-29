@@ -1,16 +1,5 @@
-provider "profitbricks" {
-  endpoint = var.IONOSCLOUD_API_URL
-  #username = "qa@cloud.ionos.com"
-	#password = "kpBREDb6iFfd"
-
-  username = "dmitrii.medvedev@cloud.ionos.com"
-  password = "yG4#C53g"
-  #username = "test.executor@profitbricks.com"
-  #password = "pretest"
-}
-
 resource "profitbricks_datacenter" "vdc" {
-  name = "terraform-before-payara"
+  name = "terraform-jdk11"
   location = "de/txl"
 }
 
